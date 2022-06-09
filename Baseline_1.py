@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1803JRGW_rRXiWAipBBw1tVsbGLwj9kvm
 """
 
-!pip install goto-statement
+# !pip install goto-statement
 
 # import igraph as ig
 import json
@@ -301,7 +301,7 @@ def trace(movie_val,file3):
   print("Director :",file3[movie_val]['director'])
   print("Music Director :",file3[movie_val]['musicComposer'])
 
-@with_goto
+# @with_goto
 def main():
   
   global no_of_questions_asked
@@ -349,7 +349,7 @@ def main():
         movies = Layer6(file2,movies,file3)
         # print(len(movies))
 
-      label .jump
+      # label .jump
 
       if 0 < len(movies) <= 5 :
 
